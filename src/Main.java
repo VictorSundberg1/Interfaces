@@ -75,6 +75,8 @@ public class Main {
                         electronicDevice.turnOff();
                     }
                     break;
+                case "7":
+                    running = false;
             }
         }
     }
@@ -85,7 +87,7 @@ public class Main {
         System.out.println("4: control radio");
         System.out.println("5: Turn on all devices");
         System.out.println("6: Turn off all devices");
-        System.out.println("Exit");
+        System.out.println("7: Exit");
     }
 
 }
